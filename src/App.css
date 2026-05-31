@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 18px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.desktop {
+  width: 600px;
+  background-color: #2563eb;
+}
+
+.mobile {
+  width: 90%;
+  background-color: #16a34a;
+}
+
+.mode {
+  font-size: 20px;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 14px;
+}
